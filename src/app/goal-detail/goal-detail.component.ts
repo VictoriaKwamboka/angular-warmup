@@ -17,3 +17,4 @@ export class GoalDetailComponent implements OnInit {
   }
 
 }
+//this is a comment
