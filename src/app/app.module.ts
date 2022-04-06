@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GoalComponent } from './goal/goal.component';
 import { GoalDetailComponent } from './goal-detail/goal-detail.component';
+import { StrikethroughDirective } from './strikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({ //decorator
   declarations: [ //declaring components to use
-    AppComponent, GoalComponent, GoalDetailComponent
+    AppComponent, GoalComponent, GoalDetailComponent, StrikethroughDirective, DateCountPipe
   ],
   imports: [ //declaring libraries and modules to be imported
     BrowserModule,
